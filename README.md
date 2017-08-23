@@ -109,12 +109,10 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 
 [docker installation]: 				https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_docker.md
 
-[chessboard_image_corners]: 	./output_images/chessboard.png "Chessboard Corners"
-[undistorted_image]: 					./output_images/undistorted.png "Undistroted Image"
-[binary_image]: 							./output_images/binary.png "Binary Image"
-[warped_straight_image]: 			./output_images/warped_straight.png "Warped Straight Image"
-[warped_curved_image]: 				./output_images/warped_curved.png "Warped Curved Image"
-[equation_radius_curvature]: 	./output_images/equation.png "Radius of Curvature Equation"
-[lane_area_image]: 						./output_images/lane_area.png "Lane Area Image"
-[video result]: 							./output_videos/result.mp4
-[challenge result]: 					./output_videos/challenge_result.mp4
+[image1]: 					./output_images/chessboard.png "Chessboard Corners"
+[image2]: 					./output_images/undistorted.png "Undistroted Image"
+[image3]: 					./output_images/binary.png "Binary Image"
+[image4]: 					./output_images/warped_straight.png "Warped Straight Image"
+[image5]: 					./output_images/warped_curved.png "Warped Curved Image"
+[videolink]: 				./output_images/equation.png "Radius of Curvature Equation"
+[videolink2]: 			./output_images/lane_area.png "Lane Area Image"
