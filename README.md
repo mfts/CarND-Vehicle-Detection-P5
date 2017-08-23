@@ -110,7 +110,11 @@ Here's a link to the video with a smoother vehicle detection using the above men
 
 ##### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further. 
+In the video it becomes apparent, that the current pipeline is not 100% robust. The car with the camera is driving on the left lane hence there are only lanes to his right side that are of interest. One can see that when two cars (one in lane 2, one in lane 3) are close together, the camera reads them as only one car. One could measure the relative speed of another car relative to my car and differentiate between two vehicles. Also we could crop the opposite lanes out of the sliding window search because we are not interested in detecting cars in the opposite lanes.
+
+Of course one could also combine the vehicle detection with the lane line finding method and then predict on which lanes which cars are (similar to Telsa AP 1.0 display). Additionally, it would be interesting what would happen if a motorcycle rides in front of us. Would the classifier detect motorcycles (not included in the training dataset)?
+
+There's definitely room for improvement but it's an amazing challenge to use only cameras to detect other vehicles. 
 
 
 [docker installation]: 				https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_docker.md
