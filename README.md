@@ -97,7 +97,13 @@ Here's a link to the video with a smoother vehicle detection using the above men
 
 ### Here are six frames and their corresponding heatmaps:
 
-![alt text][image5]
+![alt text][image51]
+![alt text][image52]
+![alt text][image53]
+![alt text][image54]
+![alt text][image55]
+![alt text][image56]
+
 
 
 ### D. Discussion
@@ -109,10 +115,15 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 
 [docker installation]: 				https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/doc/configure_via_docker.md
 
-[image1]: 					./output_images/chessboard.png "Chessboard Corners"
-[image2]: 					./output_images/undistorted.png "Undistroted Image"
-[image3]: 					./output_images/binary.png "Binary Image"
-[image4]: 					./output_images/warped_straight.png "Warped Straight Image"
-[image5]: 					./output_images/warped_curved.png "Warped Curved Image"
-[videolink]: 				./output_images/equation.png "Radius of Curvature Equation"
-[videolink2]: 			./output_images/lane_area.png "Lane Area Image"
+[image1]: 					./output_images/image1.png 
+[image2]: 					./output_images/image2.png 
+[image3]: 					./output_images/image3.png 
+[image4]: 					./output_images/image4.png 
+[image51]: 					./output_images/image51.png 
+[image52]: 					./output_images/image52.png 
+[image53]: 					./output_images/image53.png 
+[image54]: 					./output_images/image54.png 
+[image55]: 					./output_images/image55.png 
+[image56]: 					./output_images/image56.png 
+[videolink]: 				./output_images/result.mp4
+[videolink2]: 			./output_images/result_2.mp4
